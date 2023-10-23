@@ -1,0 +1,74 @@
+body {
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+    margin: 4px;
+
+}
+
+
+header{
+    background-color: white;
+    font-size: 2rem;
+    font-style:normal;
+    font-variant: small-caps;
+    border: 25px solid blue;  
+    text-align: center; 
+    
+}
+
+.cercle{
+    width: 50px;
+    height: 50px;
+    border: 2.5px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 6px;
+    
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+ol{
+    display:inline-table;
+    flex-wrap:wrap;
+    justify-content: left;
+    list-style: none;
+}
+li{
+    border: 1px solid #000;
+    margin: 5px;
+    padding: 20px;
+}
+#projects_list{
+    color: black;
+    border: 4px solid #000;
+       
+}
+#Projects{
+    padding: 20px;
+    border: 2px solid #000;
+    font-size: 1.5rem;
+    margin: 6px;
+    text-underline-position: below;
+}
+#About{
+    text-align: center;
+    border: 2px solid #000;
+    font-size: 1.5rem;
+}
+
+#contact {
+    border: 2px solid #000;
+    font-size: 1rem;    
+}
+
+
+section{
+    padding: 0.5 rem;
+    background-color:turquoise;
+    margin: 6px;
+    margin-bottom: 3rem;        
+}
